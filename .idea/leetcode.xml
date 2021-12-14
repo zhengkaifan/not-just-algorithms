@@ -3,10 +3,15 @@
   <component name="config">
     <option name="associateFiles">
       <map>
+        <entry key="Playground:java" />
+        <entry key="Playground_141:java" />
+        <entry key="Playground_142:java" />
+        <entry key="Playground_160:java" />
         <entry key="Playground_19:java" />
         <entry key="Playground_1:java" />
         <entry key="Playground_21:java" />
         <entry key="Playground_23:java" />
+        <entry key="Playground_908:java" />
       </map>
     </option>
   </component>
