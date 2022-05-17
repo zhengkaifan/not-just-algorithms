@@ -1,6 +1,7 @@
 package com.caidaxing.javaCommunity.common;
 
 import com.caidaxing.javaCommunity.utils.TreeCode;
+import com.caidaxing.javaCommunity.utils.TreeCodeTwo;
 
 import java.util.Scanner;
 
@@ -65,12 +66,17 @@ public class TreeTest {
         System.out.print("构建成功的二叉树的前序遍历：");
         new TreeCode().preOrderTraversal(node);
         System.out.println();
+        new TreeCodeTwo().preOrderTraversal(node);
+        System.out.println();
         System.out.print("构建成功的二叉树的中序遍历：");
         new TreeCode().inOrderTraversal(node);
+        System.out.println();
+        new TreeCodeTwo().inOrderTraversal(node);
         System.out.println();
         System.out.print("构建成功的二叉树的后序遍历：");
         new TreeCode().postOrderTraversal(node);
         System.out.println();
+        new TreeCodeTwo().postOrderTraversal(node);
     }
 
 }
